@@ -1,0 +1,91 @@
+@import "bootstrap.css";
+body, html {
+		
+}
+
+}
+
+.span3 {
+	background-color: #aaa;
+	height: 50px;
+}
+
+
+.header_menu_item {
+	width: 193px;
+	height: 38px;
+	float: left;
+	border: 1px solid #fff;
+	background-color: #23C0DF;
+	cursor: pointer;
+	-webkit-transition: box-shadow 0.2s linear, text-shadow 0.2s linear;
+       -moz-transition: box-shadow 0.2s linear, text-shadow 0.2s linear;
+         -o-transition: box-shadow 0.2s linear, text-shadow 0.2s linear;
+            transition: box-shadow 0.2s linear, text-shadow 0.2s linear;
+  
+    color: #fefefe;
+    font-size: 18px;
+    text-align: center;
+    line-height: 40px;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.header_menu_item:hover {
+	-webkit-box-shadow: inset 0px 0px 3px rgba(0, 0, 0, 0.4);
+	   -moz-box-shadow: inset 0px 0px 3px rgba(0, 0, 0, 0.4);
+			box-shadow: inset 0px 0px 3px rgba(0, 0, 0, 0.4);
+    text-shadow: 1px 1px 1px #fff;
+	
+}
+
+#logo {
+	width: 140px;
+	height: 140px;
+	background-image: url(../images/logo.png);	
+}
+
+#header_banner {
+	background-image: url(../images/header_banner.png);
+	height: 40px;
+	margin-top: 20px;
+}
+
+
+.search-query {
+	-webkit-transition: box-shadow 0.2s linear;
+       -moz-transition: box-shadow 0.2s linear;
+         -o-transition: box-shadow 0.2s linear;
+            transition: box-shadow 0.2s linear;
+}
+.search-query:focus {
+	/*box-shadow: 0 0 10px #000 !important;*/
+}
+
+#hero {
+	height: 220px;
+	background-image: url(../images/hero.png);
+	border-radius: 5px;
+}
+.block_title {
+	font-size: 24px;
+	color: #23C0DF;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+#header_select {
+	width: 150px;
+	/*border: none;*/
+	line-height: 20px;
+	height: 30px;
+	display: block;
+	margin: 4px auto;
+
+}
+
+#banner-middle {
+	width: 939px;
+	height: 116px;
+	background-image: url(../images/banner_2.jpg);
+	box-shadow: 0 0 5px #23C0DF;
+}
