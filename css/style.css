@@ -88,4 +88,50 @@ body, html {
 	height: 116px;
 	background-image: url(../images/banner_2.jpg);
 	box-shadow: 0 0 5px #23C0DF;
+	margin-bottom: 20px;
+}
+
+.product_wrap img{
+	display: block;
+	margin: 0 auto; 
+}
+
+.product_wrap h5 {
+	text-align: center;
+}
+.price-n-btn {
+	/*background-color: #99FFFF;*/
+	font-weight: bold;
+	line-height: 30px;
+}
+.product_price {
+	text-align: center;
+	color: #2E83C3;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+.product_wrap button {
+	display: block;
+	margin: 0 auto;
+}
+
+#minimap {
+	background-color: #0071B9;
+	color:#fefefe;
+	padding: 10px 0;
+}
+
+#minimap li {
+	margin: 5px 0;
+}
+#minimap a {
+	color: #fefefe;
+}
+#footer_copyright {
+	margin-top: 17px;
+	/*margin-left: 10px;*/
+}
+
+#footer {
+	padding: 20px 0;
 }
